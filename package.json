@@ -1,6 +1,6 @@
 {
   "name": "@scdev/is-async-function",
-  "version": "1.0.0-0",
+  "version": "1.1.0",
   "description": "desc",
   "main": "./src/index.js",
   "repository": {
