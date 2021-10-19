@@ -4,7 +4,7 @@
   "description": "desc",
   "main": "./src/index.js",
   "repository": {
-    "url": "{{ PROJECT_URL }}"
+    "url": "https://github.com/simonecorsi/is-async-function"
   },
   "publishConfig": {
     "access": "public",

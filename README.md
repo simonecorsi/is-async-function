@@ -1,19 +1,10 @@
-# TODO
+# is-async-function
 
-- [ ] Remove {{ PROJECT_NAME }} and {{ PROJECT_URL }}
-- [ ] Add `npm_token` secret to github to allow action to publish
-
-# {{ PROJECT_NAME }}
-
-<!-- PROJECT SHIELDS -->
-
-<!-- ![tests](https://github.com/simonecorsi/{{ PROJECT_NAME }}/workflows/test/badge.svg) -->
+This package check if function provided is an AsyncFunction returning true/false.
 
 <!-- toc -->
 
-- [TODO](#todo)
-- [{{ PROJECT_NAME }}](#-project_name-)
-  - [About The Project](#about-the-project)
+- [is-async-function](#is-async-function)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Contributing](#contributing)
@@ -22,25 +13,26 @@
 
 <!-- tocstop -->
 
-## About The Project
-
-
 
 <!-- GETTING STARTED -->
 
 ## Installation
 
 ```sh
-npm i --save @scdev/{{ PROJECT_NAME }}
+npm i --save @scdev/is-async-function
 # OR
-yarn add
+yarn add @scdev/is-async-function
 ```
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-
+```javascript
+const isAsyncFunction = require('@scdev/is-async-function');
+isAsyncFunction(() => {}) // false
+isAsyncFunction(async () => {}) // true
+```
 
 <!-- CONTRIBUTING -->
 
