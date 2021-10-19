@@ -14,7 +14,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-      - run: npm cit
+      - uses: bahmutov/npm-install@v1
+      - run: npm t
 
   version:
     needs: [test]
@@ -26,6 +27,8 @@ jobs:
       - uses: actions/checkout@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: bahmutov/npm-install@v1
 
       - name: Bump version and push tag
         id: changelog
