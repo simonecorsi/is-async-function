@@ -1,3 +1,10 @@
+### [1.2.1](https://github.com/simonecorsi/is-async-function/compare/1.2.0...1.2.1) (2021-10-20)
+
+
+### Bug Fixes
+
+* adds missing npm description ([9bd48fe](https://github.com/simonecorsi/is-async-function/commit/9bd48fe6b0d8ba0a3d84a487def2fb3594152f64))
+
 ## [1.2.0](https://github.com/simonecorsi/is-async-function/compare/1.1.0...1.2.0) (2021-10-20)
 
 
