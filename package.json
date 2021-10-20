@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "desc",
   "main": "./index.js",
+  "types": "./index.d.ts",
   "repository": {
     "url": "https://github.com/simonecorsi/is-async-function"
   },
@@ -11,15 +12,21 @@
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-    "build": "tsc",
-    "test": "tap --ts",
+    "types": "tsc --allowJs -d --emitDeclarationOnly index.js",
+    "test": "tap",
     "coverage": "tap --coverage-report=html",
     "prepare": "is-ci || husky install"
   },
   "keywords": [
-    "markdown",
-    "generator",
+    "github",
+    "nodejs",
+    "async",
+    "esm",
+    "typecheck",
+    "asyncfunction",
     "declarative",
+    "function",
+    "functional",
     "javascript",
     "typescript",
     "programmatic",
@@ -53,6 +60,7 @@
     "nyc": "^15.1.0",
     "prettier": "^2.3.2",
     "standard-version": "^8.0.1",
-    "tap": "^15.0.10"
+    "tap": "^15.0.10",
+    "typescript": "^4.3.5"
   }
 }
