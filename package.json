@@ -1,7 +1,7 @@
 {
   "name": "@scdev/is-async-function",
   "version": "1.2.0",
-  "description": "desc",
+  "description": "Simple package to check if a function is either an AsyncFunction or not",
   "main": "./index.js",
   "types": "./index.d.ts",
   "repository": {
