@@ -1,5 +1,5 @@
 const tap = require('tap');
-const isAsyncFunction = require('../src');
+const isAsyncFunction = require('../index.js');
 
 tap.test('Should return true', (t) => {
   t.ok(isAsyncFunction(async () => {}));
