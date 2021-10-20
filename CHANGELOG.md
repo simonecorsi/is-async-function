@@ -1,4 +1,12 @@
-## 1.1.0 (2021-10-19)
+## [1.2.0](https://github.com/simonecorsi/is-async-function/compare/1.1.0...1.2.0) (2021-10-20)
+
+
+### Features
+
+* adds ts types ([0dd472c](https://github.com/simonecorsi/is-async-function/commit/0dd472c6b861d6380ec9b4a58b5b60049bf5c65e))
+* fixes npm packaged export ([aabf3c6](https://github.com/simonecorsi/is-async-function/commit/aabf3c6db5ce6396be4e1a78eae4598f7cda9389))
+
+## [1.1.0](https://github.com/simonecorsi/is-async-function/compare/f3c1709887097bc516a699564664690b10e9f6f9...1.1.0) (2021-10-19)
 
 
 ### Features
